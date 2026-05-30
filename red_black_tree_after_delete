@@ -1,0 +1,18 @@
+// Red Black Tree
+digraph {
+	rankdir=TB
+	node [fixedsize=true shape=circle style=filled width=0.5]
+	node_2215901217424 [label=25 fillcolor=black fontcolor=white fontsize=12]
+	node_2215907673424 [label=10 fillcolor=red fontcolor=white fontsize=12]
+	node_2215901217424 -> node_2215907673424 [label=L]
+	node_2215901636432 [label=8 fillcolor=black fontcolor=white fontsize=12]
+	node_2215907673424 -> node_2215901636432 [label=L]
+	node_2215907499536 [label=1 fillcolor=red fontcolor=white fontsize=12]
+	node_2215901636432 -> node_2215907499536 [label=L]
+	node_2215906801696 [label=15 fillcolor=black fontcolor=white fontsize=12]
+	node_2215907673424 -> node_2215906801696 [label=R]
+	node_2215907558224 [label=12 fillcolor=red fontcolor=white fontsize=12]
+	node_2215906801696 -> node_2215907558224 [label=L]
+	node_2215906801392 [label=30 fillcolor=black fontcolor=white fontsize=12]
+	node_2215901217424 -> node_2215906801392 [label=R]
+}
